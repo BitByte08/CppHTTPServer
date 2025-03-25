@@ -3,4 +3,6 @@ project(HTTPserver)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(HTTPserver main.cpp main.html)
+add_executable(HTTPserver main.cpp main.html
+        server.cpp
+        server.h)
